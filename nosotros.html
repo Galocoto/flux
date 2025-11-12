@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>website_ux/ui</title>
+</head>
+<body>
+    <div class="relative bg-[url('assets/fluxing.jpg')] bg-cover bg-center h-[600px]">
+
+        <nav class="absolute top-0 left-0 right-0 z-20 flex justify-between items-center p-4 max-w-[1180px] mx-auto px-4 pb-20">
+            <a href="index.html" class="text-[37px] font-bold text-white">Website.</a>
+            <div class="flex space-x-4 text-black">
+                <a href="nosotros.html">Nosotros</a>
+                <a href="proyectos.html">Proyectos</a>
+                <a href="#">Clientes</a>
+                <a href="#">Servicios</a>
+                <a href="#">Contacto</a>
+            </div>
+        </nav>
+        
+        <div class="relative z-10 grid grid-cols-12 h-full text-white p-4 max-w-[1180px] mx-auto px-4">
+            <div class="col-start-8 col-span-5 flex flex-col justify-center h-full">
+                <h1 class="text-2xl md:text-5xl font-bold mb-4">Creando experiencias digitales que resuenen</h1>
+                <p class="text-[14px] md:text-lg max-w-2xl">Somos una agencia de diseño UX/UI dedicada a crear productos digitales intuitivos y atractivos. Nuestro equipo de expertos combina creatividad con experiencia técnica para ofrecer resultados excepcionales.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="relative z-10 grid grid-cols-12 max-w-[1440px] mx-auto bg-white" style="height: 460px;">
+        <div class="col-start-2 col-span-4 flex flex-col justify-center gap-x-[20px] px-4 py-8">
+            <h1 class="text-2xl md:text-5xl font-bold mb-4 text-orange-400">Nuestra misión</h1>
+            <p class="text-base sm:text-lg max-w-xl text-gray-700 leading-relaxed">Nuestra misión es transformar ideas complejas en diseños sencillos, elegantes y fáciles de usar. Creemos en un enfoque colaborativo, trabajando estrechamente con nuestros clientes para comprender sus objetivos y ofrecer soluciones que superen sus expectativas.</p>
+            <p class="text-base sm:text-lg max-w-xl text-gray-700 leading-relaxed pt-5">Nos centramos en crear diseños que no solo luzcan bien, sino que también impulsen el éxito empresarial.</p>
+        </div>
+
+        <div class="col-start-7 col-span-5 flex flex-col justify-center px-4 py-8">
+            <img src="assets/nuestra mision.png" alt="statics">
+        </div>   
+    </div>
+
+    <div class="bg-cover bg-center bg-[#ECE1D7] mx-auto py-12 h-[565px] w-auto">
+        <h2 class="flex flex-col md:flex-row md:flex-wrap justify-left max-w-[1180px] mx-auto text-2xl md:text-4xl font-bold p-3 mb-4">Proyectos</h2>
+
+        <div class="flex flex-col md:flex-row md:flex-wrap justify-left max-w-[1180px] mx-auto pb-20">
+            
+            <div class="w-full md:w-1/2 lg:w-1/3">
+                <div class="h-full bg-[#ECE1D7] p-3 rounded-xl">
+                    <img src="assets/proyecto_1.jpg" alt="mercat" class="w-full h-auto mb-4">
+                    <h3 class="text-xl font-bold mb-2">Mercat</h3>
+                    <p class="text-gray-700 mb-8">Ahora descubre la nueva era de gestión para tu negocio.</p>
+                    <button class="w-2/3 bg-orange-400 hover:bg-orange-500 text-white font-regular py-2 rounded-full shadow-lg active:shadow-sm transition-all duration-150 text-xl" type="submit">Ver más</button>
+                </div>
+            </div>
+
+            <div class="w-full md:w-1/2 lg:w-1/3">
+                <div class="h-full bg-[#ECE1D7] p-3 rounded-xl">
+                    <img src="assets/proyecto_2.jpg" alt="Smartstep" class="w-full h-auto mb-4">
+                    <h3 class="text-xl font-bold mb-2">Smartstep</h3>
+                    <p class="text-gray-700 mb-8">Aprende inglés y destaca globalmente con nosotros..</p>
+                    <button class="w-2/3 bg-orange-400 hover:bg-orange-500 text-white font-regular py-2 rounded-full shadow-lg active:shadow-sm transition-all duration-150 text-xl" type="submit">Ver más</button>
+                </div>
+            </div>
+            
+            <div class="w-full md:w-1/2 lg:w-1/3">
+                <div class="h-full bg-[#ECE1D7] p-3 rounded-xl">
+                    <img src="assets/proyecto_3.jpg" alt="GoCredable" class="w-full h-auto mb-4">
+                    <h3 class="text-xl font-bold mb-2">GoCredable</h3>
+                    <p class="text-gray-700 mb-8">Aprende inglés y destaca globalmente con nosotros..</p>
+                    <button class="w-2/3 bg-orange-400 hover:bg-orange-500 text-white font-regular py-2 rounded-full shadow-lg active:shadow-sm transition-all duration-150 text-xl" type="submit">Ver más</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <section class="bg-white py-16 sm:py-24 px-4 sm:px-8">
+        <div class="max-w-7xl mx-auto justify-left max-w-[1180px]">
+            <h2 class="text-4xl sm:text-4xl font-extrabold mb-12 text-orange-400">Servicios</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 sm:gap-x-20 sm:gap-y-16 ">
+            
+                <div class="flex flex-col space-y-4">
+                    <img src="assets/search_icon.svg" alt="Ícono de Búsqueda" class="w-12 h-12 text-gray-800" />
+                    <h3 class="text-2xl font-bold text-gray-900">Investigación de experiencia de usuario</h3>
+                    <p class="text-gray-700 leading-relaxed max-w-lg">Nuestros servicios de investigación de usuarios implican comprender las necesidades, comportamientos y motivaciones de su público objetivo mediante diversos métodos, como entrevistas, encuestas y pruebas de usabilidad. Esta investigación constituye la base de todas nuestras decisiones.</p>
+                </div>
+
+                <div class="flex flex-col space-y-4">
+                    <img src="assets/website_icon.svg" alt="Ícono de Wireframes" class="w-12 h-12 text-gray-800"/>
+                    <h3 class="text-2xl font-bold text-gray-900">Wireframes</h3>
+                    <p class="text-gray-700 leading-relaxed max-w-lg">Creamos wireframes detallados que describen la estructura y funcionalidad de su producto digital. Estos wireframes sirven como guía para el proceso de diseño, garantizando la inclusión de todos los elementos clave y la optimización de los flujos de usuario.</p>
+                </div>
+
+                <div class="flex flex-col space-y-4">
+                    <img src="assets/prototype_icon.svg" alt="Ícono de Prototipo" class="w-12 h-12 text-gray-800"/>
+                    <h3 class="text-2xl font-bold text-gray-900">Prototipado</h3>
+                    <p class="text-gray-700 leading-relaxed max-w-lg">Desarrollamos prototipos interactivos que simulan la experiencia del usuario de su producto digital. Estos prototipos permiten realizar pruebas y recibir retroalimentación tempranas, garantizando así que el producto final satisfaga las necesidades y expectativas del usuario.</p>
+                </div>
+
+                <div class="flex flex-col space-y-4">
+                    <img src="assets/usability_icon.svg" alt="Ícono de Usabilidad" class="w-12 h-12 text-gray-800"/>
+                    <h3 class="text-2xl font-bold text-gray-900">Pruebas de usabilidad</h3>
+                    <p class="text-gray-700 leading-relaxed max-w-lg">Realizamos pruebas de usabilidad con usuarios reales para identificar áreas de mejora en su producto digital. Este proceso iterativo garantiza que el producto final sea intuitivo, eficiente y agradable de usar.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+<footer class="bg-[#592202] text-white">
+    <div class="flex justify-center p-8 border-b border-[#6f4b3f]">
+        <ul class="flex space-x-12 text-4xs font-light">
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Proyectos</a></li>
+            <li><a href="#">Clientes</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </div>
+
+    <div class="flex justify-center items-center py-8 border-b border-[#6f4b3f]">
+        <div class="flex space-x-8 items-center text-4xs">
+            <div class="flex items-center space-x-2">
+                <a href="https://wa.link/x73dyy" target="_blank" class="transition duration-300 hover:opacity-75">
+                    <img src="assets/whatsapp_icon.svg" alt="Ícono de WhatsApp" class="w-8 h-8"/>
+                </a>
+                <span>67442862</span>
+            </div>
+            <span>|</span>
+            <span>contacto@fluxing.com</span>
+            <span>|</span>
+            <div class="flex space-x-4">
+                <a href="https://www.facebook.com" target="_blank" class="transition duration-300 hover:opacity-75">
+                    <img src="assets/facebook_icon.svg" alt="Ícono de Facebook" class="w-8 h-8" />
+                </a>
+                <a href="https://www.instagram.com" target="_blank" class="transition duration-300 hover:opacity-75">
+                    <img src="assets/instagram_icon.svg" alt="Ícono de Instagram" class="w-8 h-8" />
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center py-8 text-4xs text-white bg-[#361400] flex items-center justify-center">
+        <span>©Copywright 2025.</span>
+    </div>
+</footer>
+</body>
+</html>
